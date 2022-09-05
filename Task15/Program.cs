@@ -11,10 +11,12 @@ if (number == 6 || number == 7)
 {
     Console.Write("Это выходной день");
 }
+
 else if (number < 6 && number > 0)
 {
     Console.Write("Это рабочий день");
 }
+
 else
 {
     Console.Write("Такого дня не бывает");
