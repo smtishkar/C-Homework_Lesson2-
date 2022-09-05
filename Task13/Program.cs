@@ -10,8 +10,8 @@ int number = int.Parse(Console.ReadLine());
 
 if (number > 99)
 {
-    String text = (number).ToString();
-    int strLen = text.Length;
+    String number_text = (number).ToString();
+    int strLen = number_text.Length;
     // Console.WriteLine(strLen);
     int i = strLen - 2;
     // Console.WriteLine(i);

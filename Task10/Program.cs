@@ -10,9 +10,9 @@ int number = int.Parse(Console.ReadLine());
 
 if (number > 99 && number <1000)
 {
-       Console.Write($"Число {(number / 10) % 10}");
+    Console.Write($"Число {(number / 10) % 10}");
 }
 else
 {
-    Console.Write("Веедено не корректное число");
+    Console.Write("Введено не корректное число");
 }
